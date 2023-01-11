@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #87b5b5;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+#input-container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 35vh;
+}
+#view-container {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: 65vh;
+}
+
+#editor {
+  background-color: #c0d8d8;
+  resize: vertical;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1.75rem;
+}
+#preview {
+  background-color: #c0d8d8;
+  height: 30rem;
+  padding: 1rem 1.75rem;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.head {
+  background-color: #4aa3a3;
+  border: 1px solid #000;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-family: 'Russo One', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* SVG */
+
+.logo {
+  color: red;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#collapse {
+  display: none;
+}
+#expand-input {
+  width: 35vw;
+  height: 100vh;
+}
+#expand-viewer {
+  width: 45vw;
+  height: 100vh;
+}
