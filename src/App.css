@@ -63,7 +63,9 @@ body {
   align-items: center;
   gap: 0.75rem;
 }
-
+.right-head:hover {
+  cursor: pointer;
+}
 /* SVG */
 
 .logo {
